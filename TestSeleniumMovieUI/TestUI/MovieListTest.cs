@@ -4,6 +4,7 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using System;
 using TestSeleniumMovieUI.PageModels;
+using MovieUI.Models;
 
 namespace TestSeleniumMovieUI.TestUI
 {
@@ -70,5 +71,6 @@ namespace TestSeleniumMovieUI.TestUI
             // Assertions
             Assert.AreEqual(expectedNameActiveMenu, page.NameActiveMenu);
         }
+
     }
 }
